@@ -1,0 +1,113 @@
+* {
+    margin: 0;
+    padding: 0;
+    color: white;
+}  
+body {
+    background: #202334;
+    font-family: "Open Sans", sans-serif;
+}
+.m-body {
+    flex: 1 1 auto;
+    min-height: 1px;
+    padding: 1.25rem;
+}
+.body_bg {
+    background: #202334;
+}
+.content_bg {
+    background: #161824;
+}
+.single_content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+    margin-left: 3px;
+    margin-right: 3px;
+}
+.double_content {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin: auto;
+}
+a {
+    text-decoration: none !important;
+}
+section {
+    padding: 15px;
+}
+hr {
+    width: auto;
+    height: 1px;  
+    background: white;
+}
+.box {
+    word-wrap: break-word;
+    background-color: #fafafa;
+}  
+.box .box-head .title {
+    font-size: 16px;
+    font-weight: 600;
+    margin: 0;
+} 
+.box .box-head p {
+    margin-top: 5px;
+}
+.box .box-body {
+    padding: 25px;
+} 
+.box .box-head {
+    padding: 20px 25px;
+    border-bottom: 2px solid #202334;
+}
+.box .box-foot {
+    padding: 0 25px 25px;
+}
+.card-body {
+    border-bottom: 4px solid #161824; 
+}
+section .row .col-12 div .px {
+    padding: 20px 0px;
+}
+.row .col-12 div .Breadcrumb {
+    font-size: 20px;
+    color: rgb(112, 111, 111);
+}
+
+/* --------------------Charts------------------ */
+body.chart-text svg text {
+    fill: #aaaaaa !important;
+}
+body.chart-text svg text {
+    fill: #aaaaaa !important;
+}
+/*morris charts */
+.morris-hover {
+    position:absolute;
+    z-index:1000;
+  }
+  
+.morris-hover.morris-default-style {     
+    border-radius:10px;
+    padding:6px;
+    color:#666;
+    background:rgba(255, 255, 255, 0.8);
+    border:solid 2px rgba(230, 230, 230, 0.8);
+    font-family:sans-serif;
+    font-size:12px;
+    text-align:center;
+}
+  
+.morris-hover.morris-default-style .morris-hover-row-label {
+    font-weight:bold;
+    margin:0.25em 0;
+}
+  
+.morris-hover.morris-default-style .morris-hover-point {
+    white-space:nowrap;
+    margin:0.1em 0;
+}
+svg { width: 100%; }
+/* morris charts stop */
