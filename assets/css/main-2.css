@@ -7,6 +7,21 @@ body {
     background: #202334;
     font-family: "Open Sans", sans-serif;
 }
+main {
+    display: flex;
+    height: 100vh;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 35px;
+}
+main h1 {
+    font-size: 5.3vw;
+}
+main .inline-navs {
+    display: flex;
+    gap: 20px;
+}
 .m-body {
     flex: 1 1 auto;
     min-height: 1px;
